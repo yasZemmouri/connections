@@ -1,0 +1,499 @@
+/* colors 
+ #3F87B9 
+ #7f7f7f*
+ #F5EFEC
+ text: #435460 */
+/*============Reset =============*/
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6em;
+  background-image: url(../images/site.png);
+  background-repeat: no-repeat;
+  height: 2000vh;
+  color: #7f7f7f;
+}
+h2,
+h3 {
+  line-height: 1.4;
+  text-transform: capitalize;
+  margin-bottom: 0.6em;
+  color: #435460;
+}
+h2 {
+  font-size: 2.5em;
+}
+p {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+section {
+  padding: 100px 0;
+}
+/*======== Flex boxes =================*/
+.flex-h-around-center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-h-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-h-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-v-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.flex-v-evenly-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.flex-v-center-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-v-center-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flex-v-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.flex-v-center-evenly {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*========= Header ==========*/
+.container {
+  padding: 15px;
+  max-width: 1200px;
+  background-color: rgba(144, 144, 144, 0.513);
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+#top-bar {
+  /* background-color: rgba(0, 255, 255, 0.582); */
+  background-color: white;
+  height: 100px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+#nav-bar {
+  /* background-color: rgba(0, 128, 0, 0.609); */
+  background-color: white;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 3000;
+}
+
+.all-btn-link {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 90px;
+  color: white;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.make-inquery-btn {
+  /* background-color: red; */
+  background-color: #37b6ab;
+}
+#nav-bar-links a {
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+/*============== Hero ================*/
+.bg-img {
+  color: white;
+}
+.bg-img h2,
+.bg-img h3,
+.bg-img p {
+  color: white;
+}
+#hero {
+  height: 76vh;
+  /* background-color: rgba(255, 228, 196, 0.4); */
+  background-image: url(../images/img3.png);
+  /* color: white; */
+}
+
+#hero h2 {
+  font-size: 5em;
+  margin-bottom: 0.2em;
+  /* color: white; */
+}
+#hero p {
+  font-size: 1.5em;
+  line-height: 1.4;
+  margin-bottom: 0.6em;
+  /* color: white; */
+  max-width: 850px;
+}
+.get-in-touch-btn {
+  padding: 1em 2.5em;
+  border: 2px solid white;
+  border-radius: 90px;
+}
+
+/*=============== services==============*/
+#services {
+  /* height: 340px; */
+  background-color: rgba(255, 255, 0, 0.246);
+  /* background-color: #3f87b9; */
+  padding: 61px 0;
+  color: white;
+}
+#services h3 {
+  color: white;
+}
+#services p {
+  color: white;
+  font-size: 1em;
+}
+#services figure {
+  /*flexBox class*/
+  text-align: center;
+  width: 200px;
+}
+figure div {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 23px;
+}
+figure h2 {
+  margin-bottom: 0.7em;
+}
+/*------------- Mission Section ------------------*/
+#mission {
+  background-color: rgba(0, 255, 255, 0.423);
+  padding: 45px 0;
+  background-image: url(../images/me.jpg);
+  background-repeat: no-repeat;
+  background-position: right 970px top -100px;
+  background-size: auto 150%;
+}
+
+#mission blockquote {
+  /*centered because of padding*/
+  position: relative;
+  text-align: left;
+  background-color: rgba(0, 0, 255, 0.644);
+  padding: 3.2em;
+  margin: 0px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: 0px;
+}
+#mission h2 {
+  font-size: 3em;
+  color: #435460;
+}
+
+#mission p:first-of-type {
+  margin-bottom: 2em;
+}
+/* Welcome */
+#welcome {
+  background-color: rgba(127, 255, 212, 0.5);
+  /* background-color: #f5efec; */
+  text-align: center;
+}
+
+#welcome .fig-container {
+  margin-top: 52px;
+  margin: 1.3em 0 8.5em;
+  /* background-color: rgba(255, 255, 0, 0.411); */
+}
+#welcome p {
+  font-size: 1em;
+}
+
+#welcome figure {
+  width: 33.33%;
+  float: left;
+  padding: 8px;
+}
+#welcome .fig-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#welcome img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+#welcome figcaption {
+  padding: 30px;
+}
+#welcome h3 {
+  font-size: 1.5em;
+}
+#welcome p {
+  margin-bottom: 0.5em;
+}
+#welcome figcaption a {
+  display: block;
+  text-transform: uppercase;
+  color: #37b6ab;
+}
+
+.view-services {
+  background-color: #37b6ab;
+  display: inline-block;
+  color: white;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  margin-bottom: 0.6em;
+}
+/*================ easy===================*/
+#easy {
+  background-image: linear-gradient(#3f86b96c, rgba(0, 0, 255, 0.2)),
+    url(../images/img6.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 710px;
+}
+
+.easy-btn {
+  /* background-color: greenyellow; */
+  background-color: #37b6ab;
+  border: 2px solid;
+}
+/*======== how we care ==============*/
+#how-we-care {
+  margin-bottom: 375px;
+}
+#how-we-care h2 {
+  text-align: center;
+}
+.flex-50-50 {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  /* background-color: rgba(0, 0, 255, 0.244); */
+  background-color: #f5efec;
+}
+#how-we-care img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-50-50 > * {
+  flex-basis: 50%;
+  min-width: 0;
+}
+#how-we-care article {
+  padding: 75px;
+}
+#how-we-care h3 {
+  font-size: 2.5em;
+  color: #3174b4;
+}
+#how-we-care p:fist-child {
+  font-size: 1.5em;
+}
+
+.arrow {
+  width: 25%;
+  height: 25%;
+  border: 2px solid white;
+  border-right: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.arrow-container {
+  background-color: #37b6ab;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  position: fixed;
+  right: 15px;
+  bottom: 40px;
+  border-radius: 90px;
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+/*------------------ testemonies -----------*/
+
+#testemonies {
+  /*transform: translate3d(-1170px, 0px, 0px);
+    transition-duration: 0ms;
+    is faster in most browsers
+    how to hold text with my hand and scroll it cursor: grab; cursor: grabbing*/
+  background-image: url(../images/img8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.205);
+  height: 707px;
+  margin-bottom: 828px;
+}
+.quote-mrk {
+  font-size: 8em;
+  margin: 0;
+  line-height: 0.8;
+  margin-bottom: -10px;
+}
+#testemonies p {
+  max-width: 750px;
+  margin: 0 auto;
+}
+#testemonies p:last-of-type {
+  font-style: italic;
+}
+.testemonies-dot {
+  width: 11px;
+  height: 11px;
+  margin: 0 4px;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-sizing: content-box;
+  vertical-align: middle;
+  background-clip: padding-box;
+  border: 2px solid transparent;
+}
+.testemonies-dot:hover {
+  border: 2px solid white;
+  background-color: rgba(14, 13, 18, 0);
+  cursor: pointer;
+}
+
+/*================== Flip Card ==================*/
+/* .flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  margin: 30px auto;
+  perspective: 1000px;
+}
+
+.flip-card-front,
+.flip-card-inner,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+}
+.flip-card-inner {
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  text-align: center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*.flip-card:hover*/
+/*.flip-card-inner:hover {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.flip-card-back {
+  background-color: red;
+  color: white;
+  transform: rotateY(180deg);
+} */
+#why-us {
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.233);
+}
+
+#why-us .flip-container {
+  width: 370px;
+  height: 230px;
+  /* flex-basis: auto; */
+  background-color: transparent;
+  margin: 10px;
+  perspective: 2000px;
+}
+.flip-inner {
+  position: relative;
+  background-color: yellow;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 0.6s;
+}
+.flip-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-front img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+}
+.img-txt {
+  position: absolute;
+  color: white;
+}
+.flip-back {
+  position: absolute;
+  background-color: green;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.flip-container:hover .flip-inner {
+  transform: rotateY(180deg);
+}

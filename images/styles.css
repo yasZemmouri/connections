@@ -1,0 +1,100 @@
+/* reset styles*/
+html, body, nav, h1, h2, hr, div, a, section {
+	margin: 0;
+	border: 0
+	padding: 0;
+}
+
+html {
+	height: 100%;/*????*/ 
+}
+
+body {
+	
+	font-family: 'Lato', sans-serif;
+	color: black;
+   
+}
+.hero-bloc {
+	background-image: url(img3.png);
+	background-size: cover;
+	background-position: top right;
+	background-repeat: no-repeat;
+   background-color:white;
+   min-height: 100vh;	
+   border:0;
+   padding:0;
+   margin:0;
+
+}
+.navbar {
+	margin-bottom: 0;
+}
+
+#content {
+	text-align: center;
+	padding-top:25%;/*?????*/
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+	/*text-shadow: 0px 4px 3px red,
+				 0px 8px 13px orange,
+				 0px 18px 23px yellow;*/
+}
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+hr {
+	width: 37em;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	margin: 0.5em auto;
+}
+section {
+	padding-top: 2em;
+}
+.welcome {
+    background-color: #3f60fa;
+    color: #fff;
+    padding-bottom: 2em;
+    
+}
+.welcome p {
+	font-size: 18px;
+	line-height: 1.6;
+}
+#logo-footer {
+	max-width: 100%;
+}
+footer {
+	background-color: #3f60fa;
+    color: #fff;
+}
+footer p {
+	padding: 0em;
+	margin: 0;
+}
+.overlap {
+	background-color: #cc0000;
+	text-align: center;
+	padding: 1em;
+	border-radius: 45px;
+	display: inline-block;
+	margin-bottom: -1em;
+	position: relative;
+	top:-1.55em;
+	box-shadow: 0px 4px 3px rgba(128, 0, 0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	color: white;
+}
+.continto {
+	text-align: center;/* used to be center */
+	color:black;
+	background-color: #f5f5f5;
+}
+a {
+	text-decoration: none;
+}
