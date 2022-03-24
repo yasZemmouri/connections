@@ -29,7 +29,7 @@ html {
 body {
   font-size: 1.6em;
   font-family: 'Montserrat', sans-serif;
-  background-image: url(../images/site.png);
+  /* background-image: url(../images/site.png); */
   background-repeat: no-repeat;
   height: 2000vh;
   color: #7f7f7f;
@@ -117,7 +117,7 @@ section {
 .container {
   padding: 15px;
   max-width: 1200px;
-  background-color: rgba(144, 144, 144, 0.513);
+  /* background-color: rgba(144, 144, 144, 0.513); */
   height: 100%;
   margin: auto;
   position: relative;
@@ -175,10 +175,13 @@ section {
   color: white;
 }
 #hero {
+  /*later change the height*/
   height: 76vh;
   /* background-color: rgba(255, 228, 196, 0.4); */
-  background-image: url(../images/img3.png);
-  /* color: white; */
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 255, 0.3)), url(../images/pexels-alexandr-podvalny-1172000.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #hero h2 {
@@ -202,7 +205,7 @@ section {
 /*=============== services==============*/
 #services {
   /* height: 340px; */
-  background-color: rgba(255, 255, 0, 0.246);
+  /* background-color: rgba(255, 255, 0, 0.246); */
   /* background-color: #3f87b9; */
   padding: 61px 0;
   color: white;
@@ -232,7 +235,7 @@ figure h2 {
 }
 /*------------- Mission Section ------------------*/
 #mission {
-  background-color: rgba(0, 255, 255, 0.423);
+  /* background-color: rgba(0, 255, 255, 0.423); */
   padding: 45px 0;
   background-image: url(../images/me.jpg);
   background-repeat: no-repeat;
@@ -244,7 +247,7 @@ figure h2 {
   /*centered because of padding*/
   position: relative;
   text-align: left;
-  background-color: rgba(0, 0, 255, 0.644);
+  /* background-color: rgba(0, 0, 255, 0.644); */
   padding: 3.2em;
   margin: 0px;
   max-width: 650px;
@@ -261,7 +264,7 @@ figure h2 {
 }
 /* Welcome */
 #welcome {
-  background-color: rgba(127, 255, 212, 0.5);
+  /* background-color: rgba(127, 255, 212, 0.5); */
   /* background-color: #f5efec; */
   text-align: center;
 }
@@ -314,11 +317,11 @@ figure h2 {
 }
 /*================ easy===================*/
 #easy {
-  background-image: linear-gradient(var(--primary), rgba(0, 0, 255, 0.2)),
-    url(../images/img6.webp);
+  background-image: linear-gradient(to right, rgb(63, 135, 185, 0.8), rgba(55, 182, 171, 0.05)),
+    url(../images/free/shutterstock_479909611free.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 710px;
+  height: 700px;
 }
 
 .easy-btn {
@@ -391,12 +394,12 @@ figure h2 {
     transition-duration: 0ms;
     is faster in most browsers
     how to hold text with my hand and scroll it cursor: grab; cursor: grabbing*/
-  background-image: url(../images/img8.jpg);
+  background-image: linear-gradient(to right, rgb(63, 135, 185, 0.9) 30%, rgba(255, 255, 255, 0.0) 75%), url(../images/free/shutterstock_1103094794-2free.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.205);
+  /* background-color: rgba(255, 0, 0, 0.205); */
   height: 707px;
   margin-bottom: 828px;
 }
@@ -419,7 +422,7 @@ figure h2 {
   margin: 0 4px;
   border-radius: 100%;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: rgba(255, 255, 255, 0.4); */
   box-sizing: content-box;
   vertical-align: middle;
   background-clip: padding-box;
@@ -427,7 +430,7 @@ figure h2 {
 }
 .testemonies-dot:hover {
   border: 2px solid white;
-  background-color: rgba(14, 13, 18, 0);
+  /* background-color: rgba(14, 13, 18, 0); */
   cursor: pointer;
 }
 
@@ -475,7 +478,7 @@ figure h2 {
 } */
 #why-us {
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.233);
+  /* background-color: rgba(255, 0, 0, 0.233); */
 }
 
 #why-us .flip-container {
@@ -488,7 +491,7 @@ figure h2 {
 }
 .flip-inner {
   position: relative;
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
