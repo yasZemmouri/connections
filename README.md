@@ -5,3 +5,4 @@ Steps
 2- choose font
 3- Insert Map
 4- colors variables
+5- integrate font awesome
