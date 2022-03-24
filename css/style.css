@@ -1,7 +1,8 @@
 /* colors 
- #3F87B9 
- #7f7f7f*
- #F5EFEC
+ primary blue: #3F87B9
+ secondary greenish: #37b6ab
+ some grey: #7f7f7f*
+ bg2: #F5EFEC
  text: #435460 */
 /*============Reset =============*/
 * {
@@ -13,6 +14,13 @@
 a {
   color: inherit;
   text-decoration: none;
+}
+
+:root{
+  --primary: #3F87B9;
+  --secondary: #37b6ab;
+  --txt: #435460;
+  --bg2: #f5efec;
 }
 html {
   box-sizing: border-box;
@@ -34,7 +42,7 @@ h3 {
   line-height: 1.4;
   text-transform: capitalize;
   margin-bottom: 0.6em;
-  color: #435460;
+  color: var(--txt);
   font-family: 'Lora', serif;
 }
 h2 {
@@ -139,7 +147,7 @@ section {
 }
 .make-inquery-btn {
   /* background-color: red; */
-  background-color: #37b6ab;
+  background-color: var(--secondary);
 }
 #nav-bar-links a {
   margin-right: 40px;
@@ -234,7 +242,7 @@ figure h2 {
 }
 #mission h2 {
   font-size: 3em;
-  color: #435460;
+  color: var(--txt);
 }
 
 #mission p:first-of-type {
@@ -282,11 +290,11 @@ figure h2 {
 #welcome figcaption a {
   display: block;
   text-transform: uppercase;
-  color: #37b6ab;
+  color: var(--secondary);
 }
 
 .view-services {
-  background-color: #37b6ab;
+  background-color: var(--secondary);
   display: inline-block;
   color: white;
   padding-left: 2.5em;
@@ -295,7 +303,7 @@ figure h2 {
 }
 /*================ easy===================*/
 #easy {
-  background-image: linear-gradient(#3f86b96c, rgba(0, 0, 255, 0.2)),
+  background-image: linear-gradient(var(--primary), rgba(0, 0, 255, 0.2)),
     url(../images/img6.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -304,7 +312,7 @@ figure h2 {
 
 .easy-btn {
   /* background-color: greenyellow; */
-  background-color: #37b6ab;
+  background-color: var(--secondary);
   border: 2px solid;
 }
 /*======== how we care ==============*/
@@ -319,7 +327,7 @@ figure h2 {
   justify-content: center;
   align-items: stretch;
   /* background-color: rgba(0, 0, 255, 0.244); */
-  background-color: #f5efec;
+  background-color: var(--bg2);
 }
 #how-we-care img {
   width: 100%;
@@ -353,7 +361,7 @@ figure h2 {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 .arrow-container {
-  background-color: #37b6ab;
+  background-color: var(--secondary);
   width: 50px;
   height: 50px;
   margin: auto;
@@ -501,4 +509,9 @@ figure h2 {
 }
 .flip-container:hover .flip-inner {
   transform: rotateY(180deg);
+}
+/*========== Map =============*/
+iframe{
+  width: 100%;
+  height: 422px;
 }

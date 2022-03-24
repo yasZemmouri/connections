@@ -3,3 +3,5 @@ Theme: http://preview.themeforest.net/item/saveo-inhome-care-agency-wp-theme/ful
 Steps
 1- collect images
 2- choose font
+3- Insert Map
+4- colors variables
