@@ -13,6 +13,11 @@ reduce h2 and h3 boldness
 
 teach linear gradient
 
+how to transparent bg in image gimp
+how to use google font locally
+
+aria-expanded="false": don't expand by default
+
 Steps
 3/24/22
 1- collect images
@@ -23,6 +28,7 @@ Steps
 6- insert images
 7- download more images
 -----------------------------------------------
+3/25/22
 8- integrate bootstrap
 9- make it responsive
 10- One page
