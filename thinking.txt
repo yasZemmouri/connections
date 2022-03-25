@@ -33,9 +33,12 @@ Steps
 9- make it responsive
 10- One page
 11- show jat
-11- form
-12- style form
-13- logic form
-14- send email from form
-15- bootstrap scrollspy
-16-locomotive scroll for cool parallax
+12- form
+13- style form
+14- logic form
+15- send email from form
+16- bootstrap scrollspy
+17- locomotive scroll for cool parallax
+18- Carousel / Slider maybe use a library
+19- Multi-item carousel
+20- Video carousel
