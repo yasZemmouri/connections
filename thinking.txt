@@ -21,3 +21,8 @@ Steps
 7- download more images
 -----------------------------------------------
 8- integrate bootstrap
+9- make it responsive
+10- One page
+11- form
+12- style form
+13- logic form
