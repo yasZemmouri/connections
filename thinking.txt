@@ -2,10 +2,13 @@ Theme: http://preview.themeforest.net/item/saveo-inhome-care-agency-wp-theme/ful
 
 <a href="https://www.freepik.com/photos/happy-doctor">Happy doctor photo created by pressfoto - www.freepik.com</a>
 
-
-download more pics from https://www.freepik.com/download-limit tomorrow 3/24/2022
+TO DO 
+download more pics from https://www.freepik.com/download-limit tomorrow 3/25/2022
 
 https://www.shutterstock.com/image-photo/geriatric-doctor-geriatrician-concept-physician-hand-1703892490 don't forget to close account??
+
+put celphone on the phone link
+reduce h2 and h3 boldness
 
 
 teach linear gradient
@@ -23,6 +26,10 @@ Steps
 8- integrate bootstrap
 9- make it responsive
 10- One page
+11- show jat
 11- form
 12- style form
 13- logic form
+14- send email from form
+15- bootstrap scrollspy
+16-locomotive scroll for cool parallax
