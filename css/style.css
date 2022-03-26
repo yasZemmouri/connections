@@ -161,7 +161,7 @@ ul li{
 }
 #hero {
   /*later change the height*/
-  height: 76vh;
+  min-height: 76vh;
   /* background-color: rgba(255, 228, 196, 0.4); */
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 255, 0.3)), url(../images/pexels-alexandr-podvalny-1172000.jpg);
   background-position: center -50px;

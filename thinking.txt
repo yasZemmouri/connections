@@ -36,6 +36,7 @@ Steps
 -----------------------------------------------
 3/26/22
 10- make it responsive
+11-flip txt
 10- One page
 11- show jat
 12- form
