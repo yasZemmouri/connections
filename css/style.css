@@ -303,6 +303,7 @@ figure h2 {
 #how-we-care .row img{
   padding-right: 0;
   padding-left: 0;
+  height: auto;
 }
 #how-we-care h2 {
   text-align: center;
