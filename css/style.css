@@ -1,5 +1,5 @@
 /* colors 
- primary blue: #3F87B9
+ primo blue: #3F87B9
  secondary greenish: #37b6ab
  some grey: #7f7f7f*
  bg2: #F5EFEC
@@ -17,7 +17,7 @@ a {
 }
 
 :root{
-  --primary: #3F87B9;
+  --primo: #3F87B9;
   --secondary: #37b6ab;
   --txt: #435460;
   --bg2: #f5efec;
@@ -128,7 +128,7 @@ section {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 45px;
   letter-spacing: normal;
-  color: var(--primary);
+  color: var(--primo);
   font-weight: bold;
 }
 
