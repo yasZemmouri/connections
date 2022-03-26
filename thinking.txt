@@ -17,6 +17,8 @@ how to transparent bg in image gimp
 how to use google font locally
 
 aria-expanded="false": don't expand by default
+study bootstrap image gallery row and col
+https://www.youtube.com/watch?v=tmWvwp3rpso I don't understand what he did with width: 100% and where did he get spacing??
 
 Steps
 3/24/22
@@ -31,6 +33,9 @@ Steps
 3/25/22
 8- integrate bootstrap
 9- make it responsive
+-----------------------------------------------
+3/26/22
+10- make it responsive
 10- One page
 11- show jat
 12- form

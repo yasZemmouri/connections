@@ -36,7 +36,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-sm navbar-light">
         <a href="/" class="navbar-brand">Connections</a>
-        <div class="ms-auto">
+        <div class="ms-auto d-none d-md-block">
           <a href="tel: 6179565214"><i class="fa-solid fa-phone"></i> +1 617 562 5624</a>
         </div>
       </nav>
@@ -147,24 +147,34 @@
           </blockquote>
         </div>
       </section>
+
+      <!-------- Welcome --------->
       <section id="welcome">
         <div class="container">
           <h2>welcome to connections!</h2>
-          <div class="fig-container">
-            <figure>
-              <img src="images/pexels-andrea-piacquadio-3768146.jpg" alt="" />
-              <figcaption>
-                <h3>
-                  About our<br />
-                  agency
-                </h3>
-                <p></p>
-                <a href="#">Learn More</a>
-              </figcaption>
-            </figure>
-            <figure>
+          <div class="gallery">
+            <!-- <div class="container-lg"> -->
+              <div class="row gy-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col">
+                  <figure class="gallery-item">
+                  <img src="images/pexels-andrea-piacquadio-3768146.jpg" alt="" />
+                  <figcaption>
+                    <h3>
+                      About our<br />
+                      agency
+                    </h3>
+                    <p></p>
+                    <a href="#">Learn More</a>
+                  </figcaption>
+
+                  </figure>
+                </div>
+              
+            
+            <div class="col">
+                  <figure class="gallery-item">
               <img src="images/pexels-olia-danilevich-7246857.jpg" alt="" />
-              <figcaption>
+              <figcaption class="col-lg-4 col-md-12 mb-4 mb-lg-0">
                 <h3>
                   Our<br />
                   cargivers
@@ -173,7 +183,10 @@
                 <a href="#">learn more</a>
               </figcaption>
             </figure>
-            <figure>
+            </div>
+
+            <div class="col">
+              <figure class="gallery-item">
               <img src="images/bigstock-First-Conversation-Attentive-231830494-1024x683free.jpg" alt="" />
               <figcaption>
                 <h3>meet our<br />patiens</h3>
@@ -184,6 +197,9 @@
                 <a href="#">learn more</a>
               </figcaption>
             </figure>
+          </div>
+        </div>
+            </div>
           </div>
           <a href="" class="all-btn-link view-services">view services</a>
         </div>
@@ -200,18 +216,17 @@
       </section>
       <section id="how-we-care">
         <div class="container">
-        <h2>How we care</h2>
-        <div class="flex-50-50">
-          <img src="./images/free/shutterstock_497636569-2free.jpg" alt="">
-          <article class="flex-v-center-start">
+          <h2>How we care</h2>
+          <div class="row row-cols-1 row-cols-md-2">
+
+            <img class="col" src="./images/free/shutterstock_497636569-2free.jpg" alt="">
+
+            <article class="col">
             <h3>conditions treated</h3>
             <p>All our caregivers are thoroughly interviewed, trained, licensed, bonded and insured</p>
-            <p>
-
-            </p>
           </article>
         </div>
-      </div>
+        </div>
 
       </section>
       <section id="testemonies" class="bg-img" >
