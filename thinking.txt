@@ -40,8 +40,10 @@ Steps
 --------------------------------------------
 3/27/22
 12-make whole page responsive
-11-flip txt
-12-fixe distorted height for care image
+--------------------------------------------
+11- flip txt front
+12- flip txt back
+12- fixe distorted height for care image
 10- One page
 11- show jat
 12- form
@@ -56,4 +58,6 @@ Steps
 21- what if the image of the front flip was relative and the back absolute?
 11- (fix right body background linear)
 12- (try out http://everwebwidgets.com/ewResponsive-grid-2/grid-4/flip.html)
-22- remove useless code
+22- remove useless code.
+23- animate % bar on scroll visible
+24- make bar adabt to percentage number
