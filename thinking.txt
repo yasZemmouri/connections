@@ -15,6 +15,7 @@ teach linear gradient
 
 how to transparent bg in image gimp
 how to use google font locally
+how to make inner-bar width change width small percentange number to reflect it.
 
 aria-expanded="false": don't expand by default
 study bootstrap image gallery row and col
@@ -35,10 +36,10 @@ Steps
 9- make it responsive
 -----------------------------------------------
 3/26/22
-10- make why choose us responsive
+10- make why choose us responsive.
 --------------------------------------------
-11-fix right body background linear
-12-make it responsive
+3/27/22
+12-make whole page responsive
 11-flip txt
 12-fixe distorted height for care image
 10- One page
@@ -52,3 +53,7 @@ Steps
 18- Carousel / Slider maybe use a library
 19- Multi-item carousel
 20- Video carousel
+21- what if the image of the front flip was relative and the back absolute?
+11- (fix right body background linear)
+12- (try out http://everwebwidgets.com/ewResponsive-grid-2/grid-4/flip.html)
+22- remove useless code

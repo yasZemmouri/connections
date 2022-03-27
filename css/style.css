@@ -264,13 +264,15 @@ figure h2 {
 #welcome h3 {
   font-size: 1.5em;
 }
-#welcome p {
-  margin-bottom: 0.5em;
-}
+
 #welcome figcaption a {
   display: block;
   text-transform: uppercase;
   color: var(--secondary);
+}
+#welcome .card{
+  border: none;
+  background-color: inherit;
 }
 
 .view-services {
@@ -309,22 +311,8 @@ figure h2 {
   text-align: center;
 
 }
-/* .flex-50-50 {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  /* background-color: rgba(0, 0, 255, 0.244);
-} */
-/* #how-we-care img, #how-we-care article {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-} */
 
-/* .flex-50-50 > * {
-  flex-basis: 50%;
-  min-width: 0;
-} */
+
 #how-we-care article {
   padding: 75px;
   background-color: var(--bg2);
@@ -336,6 +324,20 @@ figure h2 {
 #how-we-care p:fist-child {
   font-size: 1.5em;
 }
+.outer-bar{
+  width: 100%;
+  background-color: white;
+  height: 10px;
+  border-radius: 70px;
+  margin-bottom: 0.7em;
+}
+.inner-bar{
+  width: 67%;
+  height: 100%;
+  background-color: #37b6ab;
+  border-radius: 70px;
+}
+
 
 .arrow {
   width: 25%;
@@ -513,9 +515,6 @@ iframe{
   height: 422px;
 }
 
-.gallery{
-  background-color: #dbddf1;
-}
 figure{
   max-width: 100%;
   width: 100%;
