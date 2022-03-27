@@ -35,8 +35,12 @@ Steps
 9- make it responsive
 -----------------------------------------------
 3/26/22
-10- make it responsive
+10- make why choose us responsive
+--------------------------------------------
+11-fix right body background linear
+12-make it responsive
 11-flip txt
+12-fixe distorted height for care image
 10- One page
 11- show jat
 12- form
