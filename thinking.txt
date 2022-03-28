@@ -16,6 +16,10 @@ teach linear gradient
 how to transparent bg in image gimp
 how to use google font locally
 how to make inner-bar width change width small percentange number to reflect it.
+how to create gimp scripts???
+
+should I have a different css for mobile??
+    `
 
 aria-expanded="false": don't expand by default
 study bootstrap image gallery row and col
@@ -43,7 +47,11 @@ Steps
 12- make whole page responsive
 13- flip txt front
 --------------------------------------------
+14- https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
 12- flip txt back
+15- fill placeholders txt
+16- replace the placeholder pics
+17-use pseudo element on front why choose us text
 10- One page
 11- show jat
 14- contact us
@@ -62,3 +70,4 @@ Steps
 22- remove useless code.
 23- animate % bar on scroll visible
 24- make bar adabt to percentage number
+25- fix hero's background overlay

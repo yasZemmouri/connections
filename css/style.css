@@ -127,6 +127,9 @@ section {
 #top-bar .navbar{
   height: 100px;;
 }
+.sticky-top{
+  height: 70px;
+}
 .navbar-brand{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 45px;
@@ -166,8 +169,8 @@ ul li{
   /*later change the height*/
   min-height: 76vh;
   /* background-color: rgba(255, 228, 196, 0.4); */
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 255, 0.3)), url(../images/pexels-alexandr-podvalny-1172000.jpg);
-  background-position: center -50px;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 255, 0.3)), url(../images/free/pexels-alexandr-podvalny-1172000.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -182,7 +185,7 @@ ul li{
 #hero p {
   font-size: 1.5em;
   line-height: 1.4;
-  margin-bottom: 0.6em;
+  margin-bottom: 2em;
   /* color: white; */
   max-width: 850px;
 }
@@ -304,9 +307,17 @@ figure h2 {
   background-image: linear-gradient(to right, rgb(63, 135, 185, 0.8), rgba(55, 182, 171, 0.05)),
     url(../images/free/shutterstock_479909611free.jpg);
   background-size: cover;
+  background-position: top right;
   background-repeat: no-repeat;
-  height: 700px;
+  min-height: 650px;
+  
 }
+@media (max-width: 760px){
+  #easy{
+    min-height: 500px;
+  }
+}
+
 
 .easy-btn {
   /* background-color: greenyellow; */
@@ -387,7 +398,7 @@ figure h2 {
     /*is faster in most browsers
     how to hold text with my hand and scroll it cursor: grab; cursor: grabbing*/
   background-image: linear-gradient(to right, rgb(63, 135, 185, 0.9) 30%, rgba(255, 255, 255, 0.0) 75%), url(../images/free/shutterstock_1103094794-2free.jpg);
-  background-position: center;
+  background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -430,6 +441,10 @@ figure h2 {
   text-align: center;
   /* background-color: rgba(255, 0, 0, 0.233); */
 }
+#why-us h3, #why-us h4, #why-us p {
+  color: white;
+}
+
 .flip-cont{
   position: relative;
   display: bock;
@@ -446,6 +461,14 @@ figure h2 {
 }
 .flip-front{
   position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.flip-front::after{
+  content: '';
+  position: relative;
+  display: block;
+  background-color: rgba(0,0,0,0.3);
   width: 100%;
   height: 100%;
 }
@@ -466,6 +489,7 @@ figure h2 {
   transform: translateY(-50%);
   padding: 2em 5em;
   font-size: 1.2em;
+  z-index: 10;
 }
 .img-2{
   width: 100%;
@@ -482,6 +506,7 @@ figure h2 {
   transform: rotateY(180deg);
   backface-visibility: hidden;
   color: white;
+  z-index: 20;
 }
 .flip-back h4::after{
   content: '';
@@ -525,4 +550,9 @@ figure img{
 }
 .flip-container:hover .flip-inner{
   transform: rotateY(180deg);
+}
+/*=========== Footer =============*/
+footer .container{
+  line-height: 60px;
+  border-top: 1px solid var(--txt)
 }
