@@ -387,17 +387,30 @@ figure h2 {
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-.arrow-container {
+#arrow-container {
   background-color: var(--segundo);
   width: 50px;
   height: 50px;
   margin: auto;
   position: fixed;
-  right: 15px;
-  bottom: 40px;
+  right: 20px;
+  bottom: 60px;
   border-radius: 90px;
   cursor: pointer;
   caret-color: transparent;
+  /*have the button appearing and disappearing
+  /* display: none; */
+  /*have the button cuming up.*/
+  transition: all .6s ease;
+  
+}
+.arrow-hidden{
+  opacity: 0;
+  transform: translateY(100px)
+}
+.arrow-visible{
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 /*------------------ testemonies -----------*/

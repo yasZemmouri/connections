@@ -7,9 +7,8 @@ download more pics from https://www.freepik.com/download-limit tomorrow 3/25/202
 
 https://www.shutterstock.com/image-photo/geriatric-doctor-geriatrician-concept-physician-hand-1703892490 don't forget to close account??
 
-put celphone on the phone link
+put cellphone icon on the phone link
 reduce h2 and h3 boldness
-
 
 teach linear gradient
 
@@ -52,17 +51,21 @@ Steps
 15- One page
 16- flip txt back
 ---------------------------------------------
-17- convert all images to webp
+3/29/22
+17- convert all images to webp(before showing to customer)
+18- see examples of text.
+19- activate arrow scroll to top
+20- remove id from url when link from same page (JQuery).
+---------------------------------------------
+21- make up arrow disappear.
 14- https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
 15- fill placeholders txt
-11- show jat
-
-17-use pseudo element on front why choose us text
-
+11- show to customer
 14- contact us
 12- form
 13- style form
 14- logic form
+19- if prefered method is phone make phone required but not email if email make email required but not phone
 15- send email from form
 16- bootstrap scrollspy
 17- locomotive scroll for cool parallax
@@ -76,3 +79,7 @@ Steps
 23- animate % bar on scroll visible
 24- make bar adabt to percentage number
 25- fix hero's background overlay
+17- use pseudo element on front why choose us text
+25-About us: hero, text hero, primary text, our services: paragraph + link, our cargivers: paragraph + link, testemonies?? our culture: header + paragraph + link??? use folder for about us and subpages???
+contact us.
+26- Our COVID-19 safety plan
