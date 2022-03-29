@@ -47,13 +47,18 @@ Steps
 12- make whole page responsive
 13- flip txt front
 --------------------------------------------
+3/28/22
+14- replace the placeholder pics
+15- One page
+16- flip txt back
+---------------------------------------------
+17- convert all images to webp
 14- https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
-12- flip txt back
 15- fill placeholders txt
-16- replace the placeholder pics
-17-use pseudo element on front why choose us text
-10- One page
 11- show jat
+
+17-use pseudo element on front why choose us text
+
 14- contact us
 12- form
 13- style form

@@ -41,7 +41,7 @@ h1{
   font-family: 'Josefin Sans', sans-serif;
 }
 h2,
-h3 {
+h3, h4 {
   line-height: 1.4;
   text-transform: capitalize;
   margin-bottom: 0.6em;
@@ -169,7 +169,7 @@ ul li{
   /*later change the height*/
   min-height: 76vh;
   /* background-color: rgba(255, 228, 196, 0.4); */
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 255, 0.3)), url(../images/free/pexels-alexandr-podvalny-1172000.jpg);
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.0), rgba(0, 0, 255, 0.3)), url(../images/free/pexels-alexandr-podvalny-1172000-fhd.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ figure h2 {
 #mission {
   /* background-color: rgba(0, 255, 255, 0.423); */
   padding: 45px 0;
-  background-image: url(../images/me.jpg);
+  background-image: url(../images/me.webp);
   background-repeat: no-repeat;
   background-position: right 970px top -100px;
   background-size: auto 150%;
@@ -315,7 +315,7 @@ figure h2 {
 /*================ easy===================*/
 #easy {
   background-image: linear-gradient(to right, rgb(63, 135, 185, 0.8), rgba(55, 182, 171, 0.05)),
-    url(../images/free/shutterstock_479909611free.jpg);
+    url(../images/free/shutterstock_479909611free-fhd.webp);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -407,7 +407,7 @@ figure h2 {
     /* transition-duration: 0ms; */
     /*is faster in most browsers
     how to hold text with my hand and scroll it cursor: grab; cursor: grabbing*/
-  background-image: linear-gradient(to right, rgb(63, 135, 185, 0.9) 30%, rgba(255, 255, 255, 0.0) 75%), url(../images/free/shutterstock_1103094794-2free.jpg);
+  background-image: linear-gradient(to right, rgb(63, 135, 185, 0.9) 30%, rgba(255, 255, 255, 0.0) 75%), url(../images/free/shutterstock_1103094794-2free-fhd.webp);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,6 +453,9 @@ figure h2 {
 }
 #why-us h3, #why-us h4, #why-us p {
   color: white;
+}
+#why-us p{
+  font-size: 1em;
 }
 
 .flip-cont{
