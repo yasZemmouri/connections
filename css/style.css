@@ -320,6 +320,7 @@ figure h2 {
   background-position: top right;
   background-repeat: no-repeat;
   min-height: 650px;
+  background-color:  var(--primo);
   
 }
 @media (max-width: 760px){
