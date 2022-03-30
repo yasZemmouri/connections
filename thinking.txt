@@ -56,8 +56,11 @@ Steps
 18- see examples of text.
 19- activate arrow scroll to top
 20- remove id from url when link from same page (JQuery).
----------------------------------------------
 21- make up arrow disappear.
+----------------------------------------------
+3/30/22
+
+---------------------------------------------
 14- https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
 15- fill placeholders txt
 11- show to customer
