@@ -59,6 +59,10 @@ Steps
 21- make up arrow disappear.
 ----------------------------------------------
 3/30/22
+----------------------------------------------
+3/31/22
+------------------------------------------------
+4/1/22
 
 ---------------------------------------------
 14- https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/
@@ -86,3 +90,5 @@ Steps
 25-About us: hero, text hero, primary text, our services: paragraph + link, our cargivers: paragraph + link, testemonies?? our culture: header + paragraph + link??? use folder for about us and subpages???
 contact us.
 26- Our COVID-19 safety plan
+
+ctrl + [ or ctrl + ] to indent and shift a block of code on vs code.

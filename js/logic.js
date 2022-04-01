@@ -29,6 +29,7 @@ $(document).ready(function() {
       history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search);
     }
 
+    //Show and hide Scroll to top button when scrolling
     // $(window).scroll(function () {
     //     if ($(this).scrollTop() > 1500) {
     //         $('#arrow-container').fadeIn();

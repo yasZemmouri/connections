@@ -583,3 +583,70 @@ footer .container{
   line-height: 60px;
   border-top: 1px solid var(--txt)
 }
+.form-control{
+  height: 44px;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  color: rgba(0,0,0, 0.8)
+}
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.3) !important; }
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.3) !important; }
+.form-control:-ms-input-placeholder {
+  /* IE 0+ */
+  color: rgba(0, 0, 0, 0.3) !important; }
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.3) !important; }
+.form-control:focus, .form-control:active {
+  border-color: #2553b8 !important; }
+
+.dbox .icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #2553b8;
+  font-size: 20px;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.dbox .text{
+  width: 100%;
+}
+.dbox p{
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 1.8em;
+}
+.dbox p span{
+  font-weight: 500;
+  color: black;
+}
+.wrapper{
+  width: 100%;
+}
+.no-gutters{
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters> [class*="col-"]{
+  padding-right: 0;
+  padding-left: 0;
+}
+.contact-wrap{
+  background-color: #e8edf0;
+}
+#form-message-warning{
+  color: red;
+}
+#form-message-success{
+  color: green;
+  font-size: 18px;
+  font-weight: 500;
+}
