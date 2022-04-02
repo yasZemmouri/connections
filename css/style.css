@@ -149,7 +149,19 @@ section {
 }
 .make-inquery-btn {
   /* background-color: red; */
-  background-color: var(--segundo);
+  background-color: var(--primo);
+  background-image: linear-gradient(to right, var(--primo) 50%, var(--segundo) 50%);
+  background-repeat: no-repeat;
+  /*This is default no need to put it*/
+  background-attachment: scroll;
+  background-position: right;
+  background-size: 210% 100%;
+  transition: all 0.5s ease;
+  color: white;
+}
+.make-inquery-btn:hover{
+  background-position: left;
+  color: white;
 }
 
 ul li{
