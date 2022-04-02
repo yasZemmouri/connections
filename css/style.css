@@ -126,6 +126,7 @@ section {
 
 #top-bar .navbar{
   height: 100px;;
+  /* background-color: transparent; */
 }
 .sticky-top{
   min-height: 70px;
@@ -145,7 +146,7 @@ section {
   color: white;
   font-size: 1.6rem;
   white-space: nowrap;
-  /* display: inline-block; */
+  display: inline-block;
 }
 .make-inquery-btn {
   /* background-color: red; */
@@ -153,11 +154,11 @@ section {
   background-image: linear-gradient(to right, var(--primo) 50%, var(--segundo) 50%);
   background-repeat: no-repeat;
   /*This is default no need to put it*/
-  background-attachment: scroll;
+  /* background-attachment: scroll; */
   background-position: right;
   background-size: 210% 100%;
-  transition: all 0.5s ease;
-  color: white;
+  transition: all 0.5s;
+  box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 20%);
 }
 .make-inquery-btn:hover{
   background-position: left;
@@ -206,7 +207,9 @@ ul li{
   border: 2px solid white;
   border-radius: 90px;
 }
-
+.get-in-touch-btn:hover{
+  background-color: white;
+}
 /*=============== services==============*/
 #services {
   /* height: 340px; */
@@ -316,13 +319,13 @@ figure h2 {
   background-color: inherit;
 }
 
-.view-services {
-  background-color: var(--segundo);
-  display: inline-block;
-  color: white;
+.view-services-btn {
+  /* background-color: var(--segundo); */
+  /* display: inline-block; */
+  /* color: white; */
   padding-left: 2.5em;
   padding-right: 2.5em;
-  margin-bottom: 0.6em;
+  /* margin-bottom: 0.6em; */
 }
 /*================ easy===================*/
 #easy {
@@ -687,4 +690,8 @@ footer .container{
   font-size: 1.4rem;
   box-shadow: 0px 10px 20px -6px rgb(0 0 0 / 20%);
   margin-bottom: 20px;
+}
+
+textarea{
+  margin-bottom: 2em;
 }
