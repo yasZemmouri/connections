@@ -599,7 +599,7 @@ footer .container{
   border-top: 1px solid var(--txt)
 }
 .form-control{
-  height: 44px;
+  min-height: 44px;
   background-color: white;
   font-size: 14px;
   border-radius: 4px;
