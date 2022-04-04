@@ -98,5 +98,5 @@ function setupPhoneFields(id){
 //MAIN
 setupPhoneFields("phone");
 console.log(document.getElementById('phone'));
-const x = document.getElementById('top-bar');
-console.log(x);
+const y = document.getElementById('top-bar');
+console.log(y);
