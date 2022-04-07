@@ -702,3 +702,82 @@ footer .container{
 textarea{
   margin-bottom: 2em;
 }
+#confirmation{
+  background-color: var(--bg2);
+  text-align: center;
+  width: 100%;
+}
+
+#agency{
+  background-color: var(--primo);
+}
+#agency *{
+  color: white;
+}
+#agency p{
+  font-size: 1.2em;
+}
+.overlap{
+text-align: center;
+  
+}
+.overlap{
+  /* line-height: 1; */
+  font-size: 0;
+  /* height: auto; */
+}
+
+.overlap a{
+  /* font-size: 1em; */
+  font-family: 'Montserrat', sans-serif;
+  /* width: 100%; */
+  /* height: 100%; */
+  display: inline-block;
+  background-color: #cc0000;
+  text-align: center;
+  padding: 1.6rem;
+  /* display: inline-block; */
+  border-radius: 70px;
+  margin-bottom: -1.6rem;
+  /* position: relative; */
+  /* top: 50%; */
+  /* left: 50%; */
+  transform: translateY(-50%);
+  box-shadow: 0px 4px 3px rgb(128 0 0 /40%), 0px 8px 13px rgb(0 0 0 /10%), 0px 18px 23px rgb(0 0 0 /10%);
+  color: white;
+  font-size: 1.8rem;
+}
+.overlap i{
+  font-weight: 700;
+}
+.overlap a:hover{
+  color: white;
+  background-color: #a40000;
+}
+
+.banner {
+  background-image: linear-gradient(to right, rgb(0 0 0 /60%),rgb(0 0 0 /20%)), url(../images/free/close-up-doctor-holding-patient-fhd.webp);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  /* inderstand why height 0 */
+  height: 0px;
+  /* max-height: 100%; */
+  min-height: 70vh;
+  background-color: var(--primo);
+  /* text-align: center; */
+}
+.banner .container{
+  /* display: block; */
+  height: 100%;
+}
+.banner h2, p{
+  color: white;
+  /* line-height: 650px; */
+}
+.banner hr{
+  width: 100%;
+  height: 2px;
+  margin: 3rem auto;
+  background-color: white;
+}
