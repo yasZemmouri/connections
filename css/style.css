@@ -771,7 +771,7 @@ text-align: center;
   /* display: block; */
   height: 100%;
 }
-.banner h2, p{
+.banner h2, .banner p{
   color: white;
   /* line-height: 650px; */
 }
