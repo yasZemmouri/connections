@@ -64,9 +64,9 @@
         <div class="collapse navbar-collapse text-center" id="toggleMobileMenu">
           <ul class="navbar-nav text-center align-items-center">
             <li><a class="nav-link" href="/">home</a></li>
-            <li><a class="nav-link" href="#">about us</a></li>
-            <li><a class="nav-link" href="#">diagnoses</a></li>
-            <li><a class="nav-link" href="#">services</a></li>
+            <li><a class="nav-link" href="./about.html">about us</a></li>
+            <li><a class="nav-link" href="./contact.html">contact</a></li>
+            <li><a class="nav-link" href="./confirmation.html">confirmation</a></li>
             <!-- <li><a class="nav-link" href="#">features</a></li>
             <li><a class="nav-link" href="">our porfolio</a></li> -->
           </ul>
@@ -99,16 +99,17 @@
                       <div id="form-message-success">Your message was sent, thank you!
                       </div>
 
-                      <form action="https://formsubmit.io/send/yassine81ma@gmail.com"
+                      <form action="https://formsubmit.co/yassine81ma@gmail.com"
                       method="POST" 
                       id="contactForm"
                       name="contactForm"
                       class="contactForm">
+                      <input name="_next" type="hidden" id="name" value="https://www.algofairy.com/connections/confirmation.html"/>
                         <div class="row">
                           <div class="col-md-6 ">
                             <div class="form-group">
                               <label for="fname">Frist Name</label>
-                              <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
+                              <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name" required>
                             </div>
                           </div>
                           <div class="col-md-6">
@@ -168,6 +169,7 @@
                             
                           </div>                              
                         </div>
+                        <input name="_honey" type="text" style="display:none">
                       </form>
                     </div>
                   </div>
