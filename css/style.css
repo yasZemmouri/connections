@@ -17,10 +17,16 @@ a {
 }
 
 :root{
-  --primo: #3F87B9;
-  --segundo: #37b6ab;
+  /* --primo: #007EC0; */
+  --primo: #6A00EB;
+  /* --segundo: #3EC300; */
+  --segundo: #FF14E8;
+  /* --segundo: #00c043; */
   --txt: #435460;
-  --bg2: #f5efec;
+  /* --bg2: #E5BEED; */
+  /* --bg2: #dbf9f4; */
+  --bg2: #edd7fc;
+  /* --bg2: #FCE8B8; */
 }
 html {
   box-sizing: border-box;
@@ -128,6 +134,9 @@ section {
   height: 100px;;
   /* background-color: transparent; */
 }
+header img{
+  height: 90px;
+}
 .sticky-top{
   min-height: 70px;
 }
@@ -214,7 +223,7 @@ ul li{
 #services {
   /* height: 340px; */
   /* background-color: rgba(255, 255, 0, 0.246); */
-  background-color: #3f87b9;
+  background-color: var(--primo);
   padding: 61px 0;
   color: white;
 }
